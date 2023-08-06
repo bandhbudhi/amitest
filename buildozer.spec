@@ -41,7 +41,7 @@ requirements = kivy
 #icon.filename = %(source.dir)s/data/icon.png
 
 # (str) Supported orientation (one of landscape, portrait or all)
-orientation = all
+orientation = landscape
 
 # (bool) Indicate if the application should be fullscreen or not
 fullscreen = 1
@@ -64,7 +64,7 @@ fullscreen = 1
 #android.sdk = 21
 
 # (str) Android NDK version to use
-#android.ndk = 9
+#android.ndk = 16
 
 # (bool) Use --private data storage (True) or --dir public storage (False)
 #android.private_storage = True
